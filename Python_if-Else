@@ -1,0 +1,37 @@
+
+
+#Idade 
+idade = int(input("Digite a sua idade:"))
+
+if idade <= 18:
+    print("Você é menor de idade.")
+else:    print("Você é maior de idade.")
+
+
+
+
+#Febre
+Febre = float(input("Quantos graus você tem de febre? "))
+
+if Febre >= 39:
+    print("Voce tem febre alta!")
+elif Febre <= 37.5:
+    print("Voce tem febre baixa!")
+else:    print("Voce tem febre normal!")
+
+
+
+#Login
+Usuario = input("Digite seu nome de usuário: ")
+Senha = input("Digite sua senha: ")
+
+Usuario_1 = input("Nome de usuário:")
+if Usuario == Usuario_1:
+    print("Acesso concedido!")
+else: 
+    print("Acesso negado!")
+
+Senha_1 = input("Senha:")
+if Senha == Senha_1:
+    print("Acesso concedido!")
+else:    print("Acesso negado!")
